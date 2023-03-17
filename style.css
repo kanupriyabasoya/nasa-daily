@@ -1,0 +1,46 @@
+*, *:before, *:after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+/* navbar */
+nav{
+    width:100%;
+    min-height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid black;
+}
+nav > *{
+    border:1px solid black;
+}
+.nav-one, .nav-two{
+    width:35%;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-three, .nav-four{
+    width:15%;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-two ul, .nav-three ul{
+    width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-three ul li svg{
+    width:20px;
+}
