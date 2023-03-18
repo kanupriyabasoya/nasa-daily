@@ -5,6 +5,8 @@
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
+    background:rgb(5, 10, 24);
+    font-size: 62.5%;
 }
 ul{
     list-style: none;
@@ -16,10 +18,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border:1px solid black;
+   font-size: 2rem;
+   color:#fff;
 }
 nav > *{
-    border:1px solid black;
+    
 }
 .nav-one, .nav-two{
     width:35%;
@@ -27,6 +30,7 @@ nav > *{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-right:1px solid white;
 }
 .nav-three, .nav-four{
     width:15%;
@@ -35,12 +39,17 @@ nav > *{
     align-items: center;
     justify-content: space-around;
 }
+.nav-three{
+border-right:1px solid #fff;
+}
 .nav-two ul, .nav-three ul{
-    width:100%;
+  width:100%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .nav-three ul li svg{
     width:20px;
+ fill:#fff;
+ /* fill is used to change color of svgs */
 }
