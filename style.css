@@ -5,7 +5,7 @@
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
-    background:rgb(5, 10, 24);
+    background:rgb(0, 0, 0);
     font-size: 62.5%;
 }
 ul{
@@ -22,9 +22,7 @@ nav{
    color:#fff;
    border-bottom: 1px solid #fff;
 }
-nav > *{
-    
-}
+
 .nav-one, .nav-two{
     width:35%;
     height:10vh;
@@ -54,7 +52,6 @@ border-right:1px solid #fff;
     fill:#fff;
  /* fill is used to change color of svgs */
 }
-
 .grid-container{
     height:90vh;
     display:grid;
@@ -64,4 +61,25 @@ border-right:1px solid #fff;
 .grid-container>*{
     border:1px solid white;
 }
+.item1,.item2,.item3,.item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1 img {
+    width:600px;
 
+}
+.item2{
+    color:#fff;
+    padding:3em;
+    font-size: 1.6rem;
+}
+.item3{
+    color:#fff;
+    font-size: 2rem;
+}
+.item4{
+    color:#fff;
+    font-size: 1.6rem;
+}
