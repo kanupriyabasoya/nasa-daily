@@ -51,6 +51,17 @@ border-right:1px solid #fff;
 
 .nav-three ul li svg{
     width:20px;
- fill:#fff;
+    fill:#fff;
  /* fill is used to change color of svgs */
 }
+
+.grid-container{
+    height:90vh;
+    display:grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 4fr 2fr;
+}
+.grid-container>*{
+    border:1px solid white;
+}
+
