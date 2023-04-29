@@ -1,8 +1,4 @@
 let url = "https://api.nasa.gov/planetary/apod?api_key=aKug0ziZs8se61vUmlXcD3dd2o8Jc72rwUnO9sye";
-// fetch(url).then(res=>res.json()).then(data=>console.log(data));
-
-
-
 
 fetch(url)
 .then(res=>res.json())

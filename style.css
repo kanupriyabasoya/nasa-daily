@@ -57,6 +57,14 @@ border-right:1px solid #fff;
     fill:#fff;
  /* fill is used to change color of svgs */
 }
+.nav-four{
+    font-size:1.6rem;
+    
+}
+.nav-four a {
+    color:aqua;
+}
+
 .grid-container{
     height:90vh;
     display:grid;
@@ -85,7 +93,7 @@ border-right:1px solid #fff;
     font-size: 2rem;
 }
 .item4{
-    color:#fff;
+    color:aqua;
     font-size: 1.6rem;
 }
 .nasa-link{
@@ -95,5 +103,5 @@ border-right:1px solid #fff;
     text-align: center;
 }
 .nasa-link a{
-    color:#fff;
+    color:aqua;
 }
